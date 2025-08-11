@@ -13,6 +13,7 @@ AI-powered document intelligence system for ADGM (Abu Dhabi Global Market) compl
 ## Setup
 
 1. **Clone repository**
-   = git clone <repository-url>
+   - "git clone <repository-url>"
+
 
 
