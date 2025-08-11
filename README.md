@@ -1,1 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vgbm4cZ0)
+# ADGM Corporate Agent
+
+AI-powered document intelligence system for ADGM (Abu Dhabi Global Market) compliance verification.
+
+## Features
+
+- **Document Classification**: Automatically identifies document types (Articles of Association, UBO Declarations, etc.)
+- **Checklist Validation**: Verifies complete document sets against ADGM requirements
+- **Red Flag Detection**: Identifies compliance issues and regulatory violations
+- **Inline Comments**: Adds contextual comments to DOCX files with citations
+- **Compliance Reporting**: Generates structured compliance reports
+
+## Setup
+
+1. **Clone repository**

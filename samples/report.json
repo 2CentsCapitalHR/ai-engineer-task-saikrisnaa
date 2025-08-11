@@ -1,0 +1,113 @@
+{
+  "analysis_timestamp": "2025-08-11T17:00:00.000Z",
+  "process_detected": "Company Incorporation",
+  "entity_type": "Private Company Limited by Shares",
+  "process_confidence": 0.9,
+  
+  "documents_uploaded": 1,
+  "document_summary": [
+    {
+      "filename": "Articles_of_Association_TechCorp.docx",
+      "detected_type": "Articles of Association",
+      "confidence": 0.95,
+      "classification_method": "rule_based"
+    }
+  ],
+  
+  "checklist_status": "incomplete",
+  "required_documents": [
+    "Articles of Association",
+    "Memorandum of Association",
+    "Incorporation Application",
+    "UBO Declaration",
+    "Register of Members",
+    "Register of Directors",
+    "Board Resolution"
+  ],
+  "present_documents": [
+    "Articles of Association"
+  ],
+  "missing_documents": [
+    "Memorandum of Association",
+    "Incorporation Application", 
+    "UBO Declaration",
+    "Register of Members",
+    "Register of Directors",
+    "Board Resolution"
+  ],
+  "completeness_score": 0.14,
+  
+  "total_issues": 8,
+  "issues_by_severity": {
+    "High": 3,
+    "Medium": 2,
+    "Low": 3
+  },
+  "issues_found": [
+    {
+      "document": "Articles of Association",
+      "section": "Registered office",
+      "issue": "Registered office must be within ADGM jurisdiction",
+      "severity": "High",
+      "citations": ["ADGM Companies Regulations 2020, Section 6(4)(a)"],
+      "suggestion": "Specify a registered office address within ADGM boundaries"
+    },
+    {
+      "document": "Articles of Association", 
+      "section": "Jurisdiction clause",
+      "issue": "References UAE Federal Courts instead of ADGM Courts",
+      "severity": "High",
+      "citations": ["ADGM Courts Framework"],
+      "suggestion": "Update jurisdiction to reference ADGM Courts exclusively"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "Governing Law",
+      "issue": "References UAE Federal Law instead of ADGM laws",
+      "severity": "High", 
+      "citations": ["ADGM Courts Framework"],
+      "suggestion": "Align governing law to ADGM jurisdiction"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "Execution block",
+      "issue": "Missing signature block or execution provisions",
+      "severity": "Medium",
+      "citations": ["ADGM Document Execution Requirements"],
+      "suggestion": "Include proper signature blocks with name, title, and date"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "Signatory information", 
+      "issue": "Incomplete signatory information - missing title/capacity",
+      "severity": "Medium",
+      "citations": ["ADGM Document Standards"],
+      "suggestion": "Include signatory title and witness signature where required"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "Language clarity",
+      "issue": "Non-binding language 'may' used in multiple clauses",
+      "severity": "Low",
+      "citations": ["Legal Drafting Best Practices"],
+      "suggestion": "Consider using 'shall' for binding obligations"
+    },
+    {
+      "document": "Articles of Association",
+      "section": "Language clarity",
+      "issue": "Non-binding language 'should' used in multiple clauses", 
+      "severity": "Low",
+      "citations": ["Legal Drafting Best Practices"],
+      "suggestion": "Consider using 'shall' for binding obligations"
+    }
+  ],
+  
+  "recommendations": [
+    "Complete document set by preparing: Memorandum of Association, Incorporation Application, UBO Declaration, Register of Members, Register of Directors, Board Resolution",
+    "Address 3 high-priority compliance issues before submission",
+    "Review and update jurisdiction clauses to reference ADGM Courts exclusively",
+    "Ensure all incorporation documents are prepared before ADGM submission"
+  ],
+  
+  "overall_compliance_score": 25.4
+}
